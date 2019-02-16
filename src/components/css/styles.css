@@ -1,0 +1,85 @@
+.searchbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 192px;
+    width: 100%;
+  z-index: 1;
+  background-color: black !important;
+}
+.listing{
+    position: relative;
+    top: 264px;
+    display: -webkit-box;
+}
+.searchbargra{
+    background-image: linear-gradient(black, #22292F) !important;
+    position: fixed;
+    top: 192px;
+    left: 0;
+    right: 0;
+    height: 36px;
+    width: 100%;
+    z-index: 1;
+}
+.inlineee{
+    display: -webkit-inline-box;
+    /* width: calc(33.33333% - 20px); */
+    margin-bottom: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.floatIt{
+    float: right;
+    margin-top: 55px;
+    cursor: pointer;
+}
+.floatItLeft{
+    float: left;
+    margin-top: 55px;
+    cursor: pointer;
+}
+.universal{
+    padding: 0px 30px;
+}
+.marginn{
+    margin: 0px 30px;
+}
+.paTop{
+    color: white;
+}
+.marBottom{
+    margin-bottom: 24px;
+}
+
+body {
+    font-family: 'Titillium Web';
+    background-color: #22292f;
+  }
+
+.mob{
+    float: right;
+    padding-right: 12px;
+}
+.maTopp{
+    margin-top: 41px;
+}
+
+.mobInput{
+    margin-top: 41px;
+    width: 74%;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 73px;
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    border-radius: 12px;
+    /* background: url(../../Slices/Back.png) no-repeat scroll 7px 7px; */
+padding-left:30px;
+}
+
+.mobInput:focus{
+    outline: none;
+}
